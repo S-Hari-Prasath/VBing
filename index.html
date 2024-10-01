@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBing Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+      <nav>
+          <div class="logo">
+              <img src="img/logo.png" alt="Logo" class="logo-img">
+              <span class="logo-name">VBing</span>
+          </div>
+          <div class="hamburger" aria-expanded="false">
+              <div class="bar"></div>
+          </div>
+          <ul>
+              <li><a href="#home" data-after="Home">Home</a></li>
+              <li><a href="#about" data-after="About Us">About Us</a></li>
+              <li><a href="#services" data-after="Services">Services</a></li>
+              <li><a href="#projects" data-after="Our Projects">Our Projects</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="btn">Get in Touch</a>
+      </nav>
+  </header>
+  
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Creative Partner in Digital Solutions</h1>
+            <p>At VBing, we specialize in providing tailored solutions for your unique business needs, ensuring your vision comes to life.</p>
+            <a href="#services" class="btn">Discover Our Expertise</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h1>ABOUT US</h1>
+        <p>VBing is a dedicated team of professionals committed to delivering top-notch services in web development, design, content creation, and more. Our collaborative approach ensures that every project we undertake meets the highest standards of quality and innovation. We are here to help you transform your ideas into reality, enhancing your online presence and helping your business thrive.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h1>OUR SERVICES</h1>
+      <div class="card-container">
+          <div class="card">
+              <div class="card-icon">&#128187;</div>
+              <h3>Web Development</h3>
+              <p>Our team creates custom websites and web applications.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#127912;</div>
+              <h3>Web Design</h3>
+              <p>We deliver stunning, responsive web designs to enhance your online presence.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128247;</div>
+              <h3>Logo Design</h3>
+              <p>We offer unique logo design services to establish your brand identity.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128221;</div>
+              <h3>Content and Copy Writing</h3>
+              <p>We craft engaging content for websites, blogs, and marketing materials.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128190;</div>
+              <h3>Database Management</h3>
+              <p>Reliable database management services for your business needs.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128241;</div>
+              <h3>App Development</h3>
+              <p>We develop mobile and web apps tailored to your business requirements.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128196;</div>
+              <h3>Portfolio Creation</h3>
+              <p>We design professional portfolios to showcase your skills and accomplishments.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon">&#128214;</div>
+              <h3>Resume Creation</h3>
+              <p>We help you craft the perfect resume to land your next job.</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h1>OUR PROJECTS</h1>
+        <div class="project-list">
+            <div class="project">
+                <h3>Portfolio for College Student</h3>
+                <p>This project involved creating a personalized portfolio for a college student, showcasing their academic achievements, skills, and projects. The design focuses on user-friendly navigation and aesthetic appeal to highlight the student's strengths effectively.</p>
+                <a href="https://s-hari-prasath.github.io/Portfolio" class="project-button">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Dynamic Login Page</h3>
+                <p>This project features a dynamic login page that provides a smooth user experience with real-time validation and responsive design. The goal was to ensure secure access while maintaining a modern and intuitive interface.</p>
+                <a href="https://s-hari-prasath.github.io/Dynamic-Login" class="project-button">View Project</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <h1><center>CONTACT DETAILS</center></h1>
+    <section id="contact-details" class="contact-details">
+        <div class="contact-box">
+            <center><img src="img/ph.webp" alt="Phone Icon" class="contact-icon"></center>
+            <div>
+                <h3>Mr.Rohith Kishore</h3>
+                <p>+91 790 413 6736</p>
+            </div>
+        </div>
+        <div class="contact-box">
+        <center> <img src="img/em.webp" alt="Email Icon" class="contact-icon"></center>
+            <div>
+                <p>vbing.official@gmail.com</p>
+            </div>
+        </div>
+        <div class="contact-box">
+        <center> <img src="img/wp.png" alt="WhatsApp Icon" class="contact-icon"></center>
+            <div>
+                <p>+91 733 950 3667</p>
+            </div>
+        </div>
+    </section>
+
+    <h1><center>CONTACT FORM</center></h1>
+    <section id="contact">
+        <div class="you1">
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Enter your full name*</label>
+                        <input type="text" id="username" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Enter your e-mail*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Type your message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" id="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module">
+    // Firebase SDK imports (if using Firebase)
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+  apiKey: "AIzaSyBEdz1UHivR7JltKMtFkHKStjJaeca1xDU",
+  authDomain: "website-6cea6.firebaseapp.com",
+  projectId: "website-6cea6",
+  storageBucket: "website-6cea6.appspot.com",
+  messagingSenderId: "811455211254",
+  appId: "1:811455211254:web:30f9689fd40d5366332ed7",
+  measurementId: "G-G7GNPGHVDX"
+};
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Handle form submission
+    document.getElementById("submit").addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById("username").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Use the email as the document ID
+        setDoc(doc(db, "users", email), {
+            name: name,
+            email: email,
+            message: message
+        }).then(() => {
+            alert("Submission successful!");
+        }).catch((error) => {
+            console.error("Error submitting data: ", error);
+            alert("Error submitting data. Please try again.");
+        });
+    });
+    </script>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <br>
+            <h2>--For Social Contact--</h2>
+            <div class="social-icons">
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/shariprasath" aria-label="LinkedIn Profile">
+                        <img src="img/lin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://join.skype.com/invite/y1jcWffky3mE" aria-label="Skype Profile">
+                        <img src="img/j4.webp" alt="Skype" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            <p>Copyrights &copy; 2024 VBing. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
