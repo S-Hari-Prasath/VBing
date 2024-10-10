@@ -343,7 +343,7 @@ nav .btn:hover {
     padding: 20px;
     margin: 10px;
     width: 100%;
-    max-width: 310px; /* Limit width to make it flexible */
+    max-width: 300px; /* Limit width to make it flexible */
     display: flex;
     flex-direction: column; /* Stack items vertically by default */
     align-items: center; /* Center content horizontally */
